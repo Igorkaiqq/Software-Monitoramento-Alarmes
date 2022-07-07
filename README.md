@@ -4,6 +4,8 @@
 
 # COMO RODAR O PROGRAMA COM O BANCO DE DADOS
 
+Baixe o arquivo: https://drive.google.com/file/d/1vCO5cGjuWf7nK-gfqZfI3NzWSoWqKQaZ/view?usp=sharing
+
 Instale o xampp que está nesta pasta
 Após instalar o xampp, abra ele e ligue o servidor Apache e MySql
 Após ligar os servidor, clique em admin no MySql
