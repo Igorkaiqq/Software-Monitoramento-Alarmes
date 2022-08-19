@@ -69,7 +69,7 @@ public class TelaAlarmesAtuados extends javax.swing.JFrame {
         for (int i = 0; i < contador; i++) {
             model.addRow(new Object[]{
                 listaModelAlarmeAtuado.get(i).getPk_id_alarmeAtuado(), 
-                listaModelEquipamento.get(listaModelAlarmeAtuado.get(i).getFk_fk_equipamento()).getEquipamento_nome(),
+                listaModelAlarmeAtuado.get(i).getFk_fk_equipamento(),
                 listaModelAlarmeAtuado.get(i).getFk_fk_alarme(),
                 listaModelAlarmeAtuado.get(i).getData_entrada(),
                 listaModelAlarmeAtuado.get(i).getData_saida(),
